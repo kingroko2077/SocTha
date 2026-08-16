@@ -598,7 +598,7 @@ local function CreateWindow(config)
             if input.UserInputType == Enum.UserInputType.MouseButton1
                 or input.UserInputType == Enum.UserInputType.Touch then
                 dragging = true
-                moved = false
+                moved = true
                 dragStart = input.Position
                 startPos = Fab.Position
                 input.Changed:Connect(function()
