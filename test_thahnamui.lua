@@ -4,7 +4,7 @@
 ]]
 
 local ThahNamUI = loadstring(game:HttpGet(
-    "https://raw.githubusercontent.com/kingroko2077/SocTha/main/ThahNamUI_v2-2.lua"
+    "https://raw.githubusercontent.com/kingroko2077/SocTha/main/ThahNamUI.lua"
 ))()
 
 local Window = ThahNamUI.CreateWindow({
